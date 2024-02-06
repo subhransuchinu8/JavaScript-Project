@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a href="https://www.linkedin.com/in/subhransu-patra-516522203/">Linkedin Profile</a>
+    </nav>
+    <div id="wrapper">
+        <h1>GUESS THE NUMBER GAME</h1>
+        <p>Try and Guess a Random Number Between 1 and 100</p>
+        <p>You Have 10 Attempts To Guess The Right Number</p>
+    </br>
+    <form class="form">
+        <label for="guessField" id="guess">
+            Guess a Number:
+        </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="SUBMIT" id="subt" value="Submit Guess"
+        class="guessSubmit">
+    </form>
+
+    <div class="resultParas">
+        <p>Previous Guess: <span class="guesses"></span></p>
+        <p>Guess Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+    </div>
+    </div>
+
+</body>
+<script src="javascript.js"></script>
+</html>
